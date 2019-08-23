@@ -34,6 +34,7 @@ object proCity {
     val result = sQLContext.sql("select provincename,cityname,count(*) from log group by provincename,cityname")
 
     //result.coalesce(1).write.partitionBy("provincename","cityname").json(outputPath)
+
     // 加载配置文件  需要使用对应的依赖
     val load = ConfigFactory.load()
 

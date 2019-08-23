@@ -1,11 +1,15 @@
 package com.Rpt
 
+import java.util.Properties
+
+import com.typesafe.config.ConfigFactory
 import com.utils.RptUtils
+import org.apache.commons.lang3.StringUtils
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
-import org.spark_project.jetty.util.StringUtil
+
 
 object MeiTiRpt {
   def main (args: Array[String]): Unit = {
@@ -18,8 +22,8 @@ object MeiTiRpt {
     val Array(inputPath1,inputPath2) = args
 
     val conf = new SparkConf().setAppName(this.getClass.getName).setMaster("local[2]")
-    val sc = new SparkContext(conf)
     val spark = SparkSession.builder().config(conf).getOrCreate()
+    val sc = spark.sparkContext
 
     // 读取字典文件数据，并切分，过滤，最后生成map集合
     val map = sc.textFile(inputPath2).map(_.split("\t")).filter(x => x.length > 5)
@@ -50,7 +54,7 @@ object MeiTiRpt {
       // 从map集合中取appname
       var appname = row.getAs[String]("appname")
       // 去字典文件中匹配
-      if (StringUtil.isBlank("appname")) {
+      if (StringUtils.isBlank("appname")) {
         appname = broadcast.value.getOrElse(appid, "No")
       }
 
@@ -66,7 +70,16 @@ object MeiTiRpt {
     val sumed: RDD[(String, List[Double])] = tups.reduceByKey((list1, list2) => list1.zip(list2).map(x => (x._2 + x._1)))
 
     //println(sumed.collect.toBuffer)
-    sumed.coalesce(1).saveAsTextFile("d://qianfeng/gp22Dmp/output_meiti")
+    //sumed.coalesce(1).saveAsTextFile("d://qianfeng/gp22Dmp/output_meiti")
+
+
+    // 加载配置文件  需要使用对应的依赖
+    val load = ConfigFactory.load()
+
+    val prop = new Properties()
+    prop.getProperty("user",load.getString("jdbc.user"))
+    prop.getProperty("password",load.getString("jdbc.password"))
+
 
     sc.stop()
     spark.stop()

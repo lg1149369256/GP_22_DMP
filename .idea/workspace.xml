@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75011d03-9127-4d04-b301-37cafad83215" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsAd.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsChannel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsContext.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsKeyWords.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tags/TagsShebei.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Tags.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/TagsArea.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/TagsUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GP_22_DMP.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ProCityCt/proCity$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ProCityCt/proCity$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$4$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$5$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Rpt/MeiTiRpt$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,74 +44,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/CaoZuoRpt.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/Channel.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-444">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-              <folding>
-                <element signature="e#17#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-              <folding>
-                <element signature="e#17#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Txt2Parquet.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="141">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
-                <element signature="e#17#59#0" expanded="true" />
+                <element signature="e#19#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/InternetRpt.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsChannel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+            <state relative-caret-position="96">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#17#42#0" expanded="true" />
+                <element signature="e#18#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,17 +95,26 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/RptUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ETL/Txt2Parquet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRptSQL.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/terminalsRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/YunYingRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/InternetRpt.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/RptUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/SheBeiRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/CaoZuoRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/Channel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsAd.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/TagsUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsShebei.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsKeyWords.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/TagsArea.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsChannel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tags/TagsContext.scala" />
       </list>
     </option>
   </component>
@@ -150,30 +137,32 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="GP_22_DMP" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="GP_22_DMP" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.hbase:hbase:1.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="407" />
-    <option name="y" value="37" />
-    <option name="width" value="1111" />
-    <option name="height" value="702" />
+    <option name="x" value="152" />
+    <option name="y" value="64" />
+    <option name="width" value="1161" />
+    <option name="height" value="693" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,11 +195,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +244,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39724454" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -240,27 +265,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MeiTiRpt">
+  <component name="RunManager" selected="Application.TagsContext">
     <configuration name="LocationRpt" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Rpt.LocationRpt" />
       <module name="GP_22_DMP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeiTiRpt" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Rpt.MeiTiRpt" />
-      <module name="GP_22_DMP" />
-      <option name="PROGRAM_PARAMETERS" value="D:\qianfeng\gp22Dmp\output-20190820 D:\qianfeng\gp22Dmp\output-0822" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Rpt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,6 +286,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ETL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagsContext" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tags.TagsContext" />
+      <module name="GP_22_DMP" />
+      <option name="PROGRAM_PARAMETERS" value="D:\qianfeng\gp22Dmp\output-20190820 D:\qianfeng\gp22Dmp\项目day01\Spark用户画像分析\app_dict.txt D:\qianfeng\gp22Dmp\项目day01\Spark用户画像分析\stopwords.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +334,11 @@
       <item itemvalue="Application.Txt2Parquet" />
       <item itemvalue="Application.SheBeiRpt" />
       <item itemvalue="Application.LocationRpt" />
-      <item itemvalue="Application.MeiTiRpt" />
+      <item itemvalue="Application.TagsContext" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MeiTiRpt" />
+        <item itemvalue="Application.TagsContext" />
         <item itemvalue="Application.SheBeiRpt" />
         <item itemvalue="Application.LocationRpt" />
         <item itemvalue="Application.Txt2Parquet" />
@@ -366,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566458748288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="190822">
+      <created>1566459709469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566459709469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="19" width="1111" height="702" extended-state="0" />
+    <frame x="291" y="66" width="1161" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -378,11 +410,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4959514" visible="true" weight="0.22835395" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4959514" visible="true" weight="0.19527702" />
       <window_info id="Structure" order="6" sideWeight="0.5040486" side_tool="true" weight="0.2849741" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49953833" weight="0.21830986" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49953833" visible="true" weight="0.14847943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,12 +422,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004617" side_tool="true" weight="0.25880283" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.39497307" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39177102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24953446" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32932073" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32867783" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -433,6 +465,10 @@
     <MESSAGE value="模板代码" />
     <MESSAGE value="190822" />
     <option name="LAST_COMMIT_MESSAGE" value="190822" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -490,30 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/SheBeiRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/YunYingRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -528,60 +540,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/InternetRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/CaoZuoRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/Channel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GP_22_DMP.iml">
@@ -601,9 +562,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Txt2Parquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+          <folding>
+            <element signature="e#17#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/qianfeng/maven/repos/com/typesafe/config/1.3.1/config-1.3.1.jar!/com/typesafe/config/ConfigFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2818">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_102/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+          <folding>
+            <element signature="e#5711#5712#0" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/Channel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ProCityCt/proCity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/ehh.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/hhjjt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/ng.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/CaoZuoRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/InternetRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/YunYingRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsShebei.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#18#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/MeiTiRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#17#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/TagsUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsAd.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#18#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsKeyWords.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#18#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#18#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/TagsArea.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/SheBeiRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRptSQL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="114">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="e#17#66#0" expanded="true" />
@@ -611,12 +753,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Txt2Parquet.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state relative-caret-position="-702">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="e#17#59#0" expanded="true" />
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsChannel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tags/TagsContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="e#19#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,6 +841,7 @@
             <option name="proportions">
               <list>
                 <option value="0.39724454" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

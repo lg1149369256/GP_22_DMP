@@ -26,8 +26,7 @@ object LocationRpt {
     val sQLContext = new SQLContext(sc)
     // 获取数据
     val df = sQLContext.read.parquet(inputPath)
-    // 将数据进行处理，统计各个指标
-    val tups = df.rdd.map(row => {
+    val tups: RDD[((String, String), List[Double])] = df.rdd.map(row => {
 
       // 把需要的字段全部取到
       val requestmode = row.getAs[Int]("requestmode")
@@ -53,6 +52,8 @@ object LocationRpt {
 
       ((pro, city), s ++ a ++ d)
     })
+    // 将数据进行处理，统计各个指标
+
     //println(tups.collect.toBuffer)
     val sumed: RDD[((String, String), List[Double])] = tups.reduceByKey((list1, list2) => list1.zip(list2).map(x => x._2 + x._1))
 
