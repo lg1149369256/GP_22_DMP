@@ -15,7 +15,6 @@ object TagsAppRedis extends Tags{
     var list =  List[(String,Int)]()
     // 解析参数
     val row = args(0).asInstanceOf[Row]
-
     val redis = args(1).asInstanceOf[Jedis]
 
 

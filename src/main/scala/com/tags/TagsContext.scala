@@ -43,36 +43,29 @@ object TagsContext {
       .map(row => {
       // 取出用户id
       val userId = TagsUtils.getOneUserId(row)
-
       // 接下来通过row数据，打上广告位类型的所有标签
       val adList = TagsAd.makeTags(row)
-
       // 打上App所有标签
       val appList = TagsApp.makeTags(row, broadcastMap)
-
       // 打渠道标签
       val channelList = TagsChannel.makeTags(row)
-
       // 打关键字标签
       val keyWordsList = TagsKeyWords.makeTags(row, bcstopKeyWords)
-
       // 地域标签
       val areaList = TagsArea.makeTags(row)
-
-      (userId, adList ++ appList ++ channelList ++ keyWordsList ++ areaList)
+      val buiness = TagsBuiness.makeTags(row)
+      (userId, adList ++ appList ++ channelList ++ keyWordsList ++ areaList++buiness)
     })
     val aggrUserTags = tups.reduceByKey((list1,list2) => {
-      (list1 ::: list2).groupBy(_._1).mapValues(x => x.foldLeft(0)((x, y) => (x + y._2))).toList
+      // List(("LN插屏",1),("LN全屏",1),("ZP河南",1),("ZC商丘",1)...)
+      (list1 ::: list2)
+        .groupBy(_._1).mapValues(x => x.foldLeft(0)((x, y) => (x + y._2))).toList
     })
-   // aggrUserTags.saveAsTextFile("d://output2019-0823")
-
-
-    //println(aggrUserTags.collect.toBuffer)
 
     val res: RDD[String] = aggrUserTags.map(x => {
       x._1 + "," + x._2.map(x => x._1 + ":" + x._2).mkString(",")
     })
-    res.saveAsTextFile("d://output20190823")
+    res.saveAsTextFile("d://output20190824")
     // println(res.collect.toBuffer)
 
 
