@@ -31,10 +31,9 @@ object TagsTest {
           buffer.append(json.getString("type"))
         }
       }
-      list:+=buffer.mkString(",")
+      list:+=buffer.mkString(";")
     }
-    val res: List[(String, Int)] = list.flatMap(x => x.split(","))
-      .flatMap(x=>x.split(";"))
+    val res: List[(String, Int)] = list.flatMap(x => x.split(";"))
       .map((_,1)).groupBy(_._1).mapValues(_.size).toList
 
     res.foreach(println)

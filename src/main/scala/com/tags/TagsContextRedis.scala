@@ -19,9 +19,9 @@ object TagsContextRedis {
     val spark = SparkSession.builder().config(conf).getOrCreate()
     val sc = spark.sparkContext
 
+    // 关键字广播出去
     val stopKeyWords: collection.Map[String, Int] = sc.textFile(stopPath).map((_, 0)).collectAsMap
     val bcstopKeyWords: Broadcast[collection.Map[String, Int]] = sc.broadcast(stopKeyWords)
-    // 关键字广播出去
 
     // 读取数据
     val df: DataFrame = spark.read.parquet(inputPath)
@@ -35,7 +35,7 @@ object TagsContextRedis {
       val channelList = TagsChannel.makeTags(row)
       val keyWordsList = TagsKeyWords.makeTags(row,bcstopKeyWords)
       val areaList = TagsArea.makeTags(row)
-        val buinessList = TagsBuiness.makeTags(row)
+      val buinessList = TagsBusiness.makeTags(row)
 
        jedis.close()
       (userId, adList ++ appList ++ channelList ++ keyWordsList ++ areaList++buinessList)
